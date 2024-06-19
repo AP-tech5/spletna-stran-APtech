@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(233, 233, 233);
+    font-family: 'Arial', sans-serif;
+}
+glava{
+    background-color: rgb(84, 84, 84);
+    position: fixed;
+    height: 120px;
+    width: 100vW ;
+    border-bottom: 2px solid black;
+    z-index: 100;
+}
+.slika_glava{
+    position: fixed;
+    top: 10px;
+    align-self: center;
+    height: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 101;
+}
+.meni{
+    position: fixed;
+    top: 80px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 5px; 
+    padding-right: 5px;
+    padding-top: 0px;
+    color:white;
+}
+.meni_izbran{
+    position: fixed;
+    top: 80px;
+    width: auto;
+    text-align: center;
+    background-color: rgb(126, 122, 122);
+    text-decoration: none;
+    padding-left: 5px; 
+    padding-right: 5px;
+    padding-top: 0px;
+    color:white;
+}
+.opis_levo{
+    position: absolute;
+    left: 20%;
+    color: black;
+    width: 27%;
+}
+.opis_desno{
+    position: absolute;
+    right: 20%;
+    color: black;
+    top: 600px;
+    width: 27%;
+    transform: translateX(0%);
+}
+.slika_home1{
+    position: absolute;
+    width: 400px;
+    top: 220px;
+    right: 47%;
+    transform: translateX(100%);
+}
+.gumb_podjetje{
+    position: absolute;
+    background-color: rgb(233, 233, 233);
+    border-radius: 15px;
+    text-decoration: none;
+    top: 450px;
+    padding: 5px;
+    text-align: center;
+    left: 46%;
+    border: 2px solid black;
+    color: black;
+}
+.crta{
+    border-bottom: 4px;
+    width: 74%;
+    border-color: black;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slika_home2{
+    position: absolute;
+    width: 400px;
+    top: 590px;
+    right: 53%;
+    transform: translateX(0%);
+}
+.gumb_ponudba{
+    position: absolute;
+    background-color: rgb(233, 233, 233);
+    border-radius: 15px;
+    text-decoration: none;
+    top: 820px;
+    padding: 5px;
+    text-align: center;
+    left: 50%;
+    border: 2px solid black;
+    color: black;
+    transform: translateX(-50%);
+}
+.slika_home3{
+    position: absolute;
+    width: 400px;
+    top: 960px;
+    right: 47%;
+    transform: translateX(100%);
+}
+obvestila{
+    position: fixed;
+    top: 130px;
+    background-color: rgb(236, 139, 139);
+    height: 40px;
+    width: 100%;
+    z-index: 100;
+    border: 2px solid red;
+    text-align: center;
+}
